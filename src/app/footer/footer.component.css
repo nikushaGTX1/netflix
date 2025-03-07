@@ -1,0 +1,58 @@
+/* General footer styles */
+.netflix-footer {
+    color: #b3b3b3;
+    padding: 30px 20px;
+    font-size: 14px;
+    text-align: center; /* Center text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px; /* Reduced gap between items */
+    max-width: 1200px; /* Limits the width to prevent it from stretching too wide */
+    width: 100%;
+    text-align: start;
+    font-size: 15px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0; /* Reduced space between list items */
+  }
+  
+  .footer-section ul li a {
+    color: #b3b3b3;
+    text-decoration: underline;
+    font-weight: 400;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+  }
+  
+  .footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+

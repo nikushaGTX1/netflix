@@ -1,0 +1,90 @@
+.containeerr {
+  text-align: left;
+  margin: 50px;
+  margin-left: 15%;
+}
+
+.containeerr button{
+width: 85%;
+}
+
+.containeerr button {
+width: 85%;
+padding: 1% 2%;
+font-size: 16px;
+cursor: pointer;
+background-color: rgb(70, 68, 68);
+border: none;
+margin: 2px;
+color: white;
+font-size: 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.text-left {
+text-align: left; /* Ensures the question text stays on the left */
+flex-grow: 1; /* This ensures it takes up available space */
+}
+
+.icon-right {
+text-align: right; /* Aligns the + or - to the right side */
+font-size: 30px;
+margin-left: 10px;
+}
+
+.info-box {
+margin-top: 10px;
+padding: 15px;
+background: rgb(70, 68, 68);
+border-radius: 5px;
+max-width: 85%;
+color: white;
+font-size: 25px;
+}
+
+.backgroundblack{
+  height: 900px;
+  background-color: black;
+}
+
+.pready{
+text-align: center;
+}
+
+.input-container {
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 15px;
+width: 50%;  /* Center container width */
+margin-left: auto;  /* Centers the entire container horizontally */
+margin-right: auto;
+}
+
+.input-container input[type="email"] {
+padding: 15px;
+background-color: #333333af;
+color: white;
+border: gray 1px solid;
+border-radius: 5px;
+font-size: 16px;
+width: 100%;  /* Make input take full width of container */
+}
+
+.input-container input[type="email"]::placeholder {
+color: #b3b3b3;
+}
+
+.redbtn {
+padding: 15px;
+background-color: red;
+color: white;
+border: none;
+font-size: 20px;
+font-weight: 1000;
+width: 50%;  /* Adjust button width to match input */
+cursor: pointer;
+border-radius: 5px;
+}
